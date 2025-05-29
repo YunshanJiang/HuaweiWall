@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Work\\unrealProject\\HuaweiWall\\HuaweiWall\\Source\\HuaweiWall\\HuaweiWall.Build.cs",
+		"E:\\Work\\unrealProject\\HuaweiWall\\HuaweiWall\\Source\\HuaweiWall.Target.cs",
+		"E:\\Work\\unrealProject\\HuaweiWall\\HuaweiWall\\Source\\HuaweiWallEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

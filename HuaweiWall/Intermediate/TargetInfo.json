@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HuaweiWall",
+			"Path": "..\\Source\\HuaweiWall.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HuaweiWallEditor",
+			"Path": "..\\Source\\HuaweiWallEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
