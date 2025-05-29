@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\apimanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\huaweiwall\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\unrealgame\\development\\huaweiwall\\definitions.huaweiwall.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\apimanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\apimanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

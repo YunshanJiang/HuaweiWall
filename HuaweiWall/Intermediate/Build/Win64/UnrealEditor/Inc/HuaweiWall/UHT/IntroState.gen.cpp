@@ -10,7 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeIntroState() {}
 
 // Begin Cross Module References
-ENGINE_API UClass* Z_Construct_UClass_AActor();
+HUAWEIWALL_API UClass* Z_Construct_UClass_ABaseState();
 HUAWEIWALL_API UClass* Z_Construct_UClass_AIntroState();
 HUAWEIWALL_API UClass* Z_Construct_UClass_AIntroState_NoRegister();
 UPackage* Z_Construct_UPackage__Script_HuaweiWall();
@@ -40,7 +40,7 @@ struct Z_Construct_UClass_AIntroState_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 UObject* (*const Z_Construct_UClass_AIntroState_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_AActor,
+	(UObject* (*)())Z_Construct_UClass_ABaseState,
 	(UObject* (*)())Z_Construct_UPackage__Script_HuaweiWall,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AIntroState_Statics::DependentSingletons) < 16);
@@ -79,10 +79,10 @@ AIntroState::~AIntroState() {}
 struct Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_IntroState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AIntroState, AIntroState::StaticClass, TEXT("AIntroState"), &Z_Registration_Info_UClass_AIntroState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIntroState), 1462612537U) },
+		{ Z_Construct_UClass_AIntroState, AIntroState::StaticClass, TEXT("AIntroState"), &Z_Registration_Info_UClass_AIntroState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIntroState), 3117704174U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_IntroState_h_2893260960(TEXT("/Script/HuaweiWall"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_IntroState_h_288050711(TEXT("/Script/HuaweiWall"),
 	Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_IntroState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_IntroState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

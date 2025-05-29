@@ -16,6 +16,36 @@ HUAWEIWALL_API UClass* Z_Construct_UClass_AWindowManager_NoRegister();
 UPackage* Z_Construct_UPackage__Script_HuaweiWall();
 // End Cross Module References
 
+// Begin Class AWindowManager Function CheckWindowCondition
+struct Z_Construct_UFunction_AWindowManager_CheckWindowCondition_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "WindowF" },
+		{ "ModuleRelativePath", "WindowManager.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AWindowManager_CheckWindowCondition_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AWindowManager, nullptr, "CheckWindowCondition", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AWindowManager_CheckWindowCondition_Statics::Function_MetaDataParams), Z_Construct_UFunction_AWindowManager_CheckWindowCondition_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AWindowManager_CheckWindowCondition()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AWindowManager_CheckWindowCondition_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AWindowManager::execCheckWindowCondition)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CheckWindowCondition();
+	P_NATIVE_END;
+}
+// End Class AWindowManager Function CheckWindowCondition
+
 // Begin Class AWindowManager Function SetWindowAlwaysOnTop
 struct Z_Construct_UFunction_AWindowManager_SetWindowAlwaysOnTop_Statics
 {
@@ -51,6 +81,7 @@ void AWindowManager::StaticRegisterNativesAWindowManager()
 {
 	UClass* Class = AWindowManager::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "CheckWindowCondition", &AWindowManager::execCheckWindowCondition },
 		{ "SetWindowAlwaysOnTop", &AWindowManager::execSetWindowAlwaysOnTop },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -81,6 +112,7 @@ struct Z_Construct_UClass_AWindowManager_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AWindowManager_CheckWindowCondition, "CheckWindowCondition" }, // 3668864475
 		{ &Z_Construct_UFunction_AWindowManager_SetWindowAlwaysOnTop, "SetWindowAlwaysOnTop" }, // 1338937498
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -136,10 +168,10 @@ AWindowManager::~AWindowManager() {}
 struct Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AWindowManager, AWindowManager::StaticClass, TEXT("AWindowManager"), &Z_Registration_Info_UClass_AWindowManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWindowManager), 866306U) },
+		{ Z_Construct_UClass_AWindowManager, AWindowManager::StaticClass, TEXT("AWindowManager"), &Z_Registration_Info_UClass_AWindowManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWindowManager), 4263324909U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_4000764269(TEXT("/Script/HuaweiWall"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_149956274(TEXT("/Script/HuaweiWall"),
 	Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

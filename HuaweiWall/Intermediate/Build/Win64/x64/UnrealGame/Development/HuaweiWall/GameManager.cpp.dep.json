@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\gamemanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\huaweiwall\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\unrealgame\\development\\huaweiwall\\definitions.huaweiwall.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\gamemanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\datamanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\datamanager.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\windowmanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\windowmanager.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\apimanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\apimanager.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\fsmmanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\fsmmanager.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealgame\\inc\\huaweiwall\\uht\\gamemanager.generated.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\engineutils.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

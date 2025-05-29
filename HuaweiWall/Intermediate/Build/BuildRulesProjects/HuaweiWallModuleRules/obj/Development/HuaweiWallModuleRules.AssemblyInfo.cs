@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HuaweiWallModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d83e0dba78ad8bf2e2bd62a640b2a3e16a7750a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b847d2904c49a8afca1059733b11cd4fc1765fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("HuaweiWallModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HuaweiWallModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

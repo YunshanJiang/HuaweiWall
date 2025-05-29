@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "BaseState.h"
 #include "IntroState.generated.h"
 
 UCLASS()
-class HUAWEIWALL_API AIntroState : public AActor
+class HUAWEIWALL_API AIntroState : public ABaseState
 {
 	GENERATED_BODY()
 	

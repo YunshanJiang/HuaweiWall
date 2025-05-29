@@ -35,6 +35,7 @@ struct Z_Construct_UEnum_HuaweiWall_EGameState_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "Ending.Name", "EGameState::Ending" },
 		{ "Interaction.Name", "EGameState::Interaction" },
 		{ "Intro.Name", "EGameState::Intro" },
@@ -101,7 +102,7 @@ struct Z_Construct_UClass_AFSMManager_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AFSMManager_Statics::NewProp_CurrentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AFSMManager_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFSMManager, CurrentState), Z_Construct_UEnum_HuaweiWall_EGameState, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentState_MetaData), NewProp_CurrentState_MetaData) }; // 3864011087
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AFSMManager_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFSMManager, CurrentState), Z_Construct_UEnum_HuaweiWall_EGameState, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentState_MetaData), NewProp_CurrentState_MetaData) }; // 1714590625
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFSMManager_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFSMManager_Statics::NewProp_CurrentState_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFSMManager_Statics::NewProp_CurrentState,
@@ -147,13 +148,13 @@ AFSMManager::~AFSMManager() {}
 struct Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EGameState_StaticEnum, TEXT("EGameState"), &Z_Registration_Info_UEnum_EGameState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3864011087U) },
+		{ EGameState_StaticEnum, TEXT("EGameState"), &Z_Registration_Info_UEnum_EGameState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1714590625U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFSMManager, AFSMManager::StaticClass, TEXT("AFSMManager"), &Z_Registration_Info_UClass_AFSMManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFSMManager), 1074148945U) },
+		{ Z_Construct_UClass_AFSMManager, AFSMManager::StaticClass, TEXT("AFSMManager"), &Z_Registration_Info_UClass_AFSMManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFSMManager), 1108630722U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_3149713211(TEXT("/Script/HuaweiWall"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_1557766351(TEXT("/Script/HuaweiWall"),
 	Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_FSMManager_h_Statics::EnumInfo));

@@ -19,7 +19,7 @@ private: \
 	static void StaticRegisterNativesAIntroState(); \
 	friend struct Z_Construct_UClass_AIntroState_Statics; \
 public: \
-	DECLARE_CLASS(AIntroState, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/HuaweiWall"), NO_API) \
+	DECLARE_CLASS(AIntroState, ABaseState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/HuaweiWall"), NO_API) \
 	DECLARE_SERIALIZER(AIntroState)
 
 

@@ -19,8 +19,11 @@ public:
 
 	UPROPERTY(BlueprintReadWrite)
 	int32 WindowHeight;
+
 	UFUNCTION(BlueprintCallable, Category = "WindowF")
 	void SetWindowAlwaysOnTop();
+	UFUNCTION(BlueprintCallable, Category = "WindowF")
+	void CheckWindowCondition();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

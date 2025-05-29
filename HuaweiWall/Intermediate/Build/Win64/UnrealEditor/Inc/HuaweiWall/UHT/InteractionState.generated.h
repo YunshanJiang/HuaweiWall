@@ -19,7 +19,7 @@ private: \
 	static void StaticRegisterNativesAInteractionState(); \
 	friend struct Z_Construct_UClass_AInteractionState_Statics; \
 public: \
-	DECLARE_CLASS(AInteractionState, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/HuaweiWall"), NO_API) \
+	DECLARE_CLASS(AInteractionState, ABaseState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/HuaweiWall"), NO_API) \
 	DECLARE_SERIALIZER(AInteractionState)
 
 

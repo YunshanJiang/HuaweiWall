@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\endingstate.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\huaweiwalleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\huaweiwall\\definitions.huaweiwall.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\endingstate.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\basestate.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\source\\huaweiwall\\fsmmanager.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealeditor\\inc\\huaweiwall\\uht\\fsmmanager.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealeditor\\inc\\huaweiwall\\uht\\basestate.generated.h",
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\unrealeditor\\inc\\huaweiwall\\uht\\endingstate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

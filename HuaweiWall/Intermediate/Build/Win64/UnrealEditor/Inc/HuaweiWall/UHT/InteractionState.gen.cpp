@@ -10,7 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeInteractionState() {}
 
 // Begin Cross Module References
-ENGINE_API UClass* Z_Construct_UClass_AActor();
+HUAWEIWALL_API UClass* Z_Construct_UClass_ABaseState();
 HUAWEIWALL_API UClass* Z_Construct_UClass_AInteractionState();
 HUAWEIWALL_API UClass* Z_Construct_UClass_AInteractionState_NoRegister();
 UPackage* Z_Construct_UPackage__Script_HuaweiWall();
@@ -40,7 +40,7 @@ struct Z_Construct_UClass_AInteractionState_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 UObject* (*const Z_Construct_UClass_AInteractionState_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_AActor,
+	(UObject* (*)())Z_Construct_UClass_ABaseState,
 	(UObject* (*)())Z_Construct_UPackage__Script_HuaweiWall,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AInteractionState_Statics::DependentSingletons) < 16);
@@ -79,10 +79,10 @@ AInteractionState::~AInteractionState() {}
 struct Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_InteractionState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInteractionState, AInteractionState::StaticClass, TEXT("AInteractionState"), &Z_Registration_Info_UClass_AInteractionState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractionState), 596597284U) },
+		{ Z_Construct_UClass_AInteractionState, AInteractionState::StaticClass, TEXT("AInteractionState"), &Z_Registration_Info_UClass_AInteractionState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInteractionState), 1068421625U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_InteractionState_h_3569934675(TEXT("/Script/HuaweiWall"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_InteractionState_h_2808898799(TEXT("/Script/HuaweiWall"),
 	Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_InteractionState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HuaweiWall_Source_HuaweiWall_InteractionState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

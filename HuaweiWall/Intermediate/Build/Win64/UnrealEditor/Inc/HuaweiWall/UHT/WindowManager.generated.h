@@ -15,6 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define HUAWEIWALL_WindowManager_generated_h
 
 #define FID_HuaweiWall_Source_HuaweiWall_WindowManager_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execCheckWindowCondition); \
 	DECLARE_FUNCTION(execSetWindowAlwaysOnTop);
 
 
