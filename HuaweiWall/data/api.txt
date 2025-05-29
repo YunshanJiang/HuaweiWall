@@ -1,0 +1,5 @@
+{
+  "get_user": "https://api.example.com/get_user",
+  "update_score": "https://api.example.com/update_score",
+  "fetch_data": "https://api.example.com/fetch_data"
+}

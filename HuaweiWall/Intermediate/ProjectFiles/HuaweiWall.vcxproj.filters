@@ -11,6 +11,7 @@
     <None Include="..\..\Source\HuaweiWallEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +30,30 @@
     <Filter Include="Source\HuaweiWall">
       <UniqueIdentifier>{F01F6A5F-63DC-3CA8-BB2D-729DDAB61510}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HuaweiWall\APIManager.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\APIManager.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\DataManager.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\DataManager.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\FSMManager.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\FSMManager.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\GameManager.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\GameManager.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
     <None Include="..\..\Source\HuaweiWall\HuaweiWall.Build.cs">
       <Filter>Source\HuaweiWall</Filter>
     </None>
@@ -36,6 +61,24 @@
       <Filter>Source\HuaweiWall</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\HuaweiWall\HuaweiWall.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\InteractionState.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\InteractionState.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\IntroState.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\IntroState.h">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\WindowManager.cpp">
+      <Filter>Source\HuaweiWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HuaweiWall\WindowManager.h">
       <Filter>Source\HuaweiWall</Filter>
     </ClCompile>
   </ItemGroup>

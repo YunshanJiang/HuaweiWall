@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\huaweiwall\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\huaweiwalleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\work\\unrealproject\\huaweiwall\\huaweiwall\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\huaweiwall\\definitions.huaweiwall.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
